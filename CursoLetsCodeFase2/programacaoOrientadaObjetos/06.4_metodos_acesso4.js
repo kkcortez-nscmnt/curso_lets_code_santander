@@ -21,4 +21,4 @@ console.log(quadrado);
 console.log(quadrado.cor);
 quadrado.cor = 'red';
 console.log(quadrado.cor);
-quadrado.cor ='White'
+quadrado.cor ='White'   
