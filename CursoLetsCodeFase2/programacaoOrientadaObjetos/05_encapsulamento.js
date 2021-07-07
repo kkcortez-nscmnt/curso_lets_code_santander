@@ -1,5 +1,5 @@
 /**
- * Encapsulamento é o ato de negar o acesso  de leitura ou escrita de algum atributo da classe.
+ * Encapsulamento é o ato de negar o acesso de leitura ou escrita de algum atributo da classe.
  * Propiedade privada da classe.
  */
 
@@ -11,8 +11,8 @@ function Quadrado(base, altura){
     let cor = 'blue';
 }
 
-const quadrado = new Quadrado(3, 4);
-console.log(quadrado.cor)//retorna undefined devido ao escopo da variavel
+const quadrado = new Quadrado(3, 4); // instânciamento.
+console.log(quadrado.cor)//retorna undefined devido ao escopo da variavel.
 quadrado.cor ='red';
 console.log(quadrado.cor);  // não acessamos let cor, criamos um novo artributo.
 
@@ -26,7 +26,7 @@ function criaQuadrado(base, altura){
     return {
         base,
         altura,
-        getCor: function(){return cor;}
+        getCor: function(){return cor;} // cria um método que garante o acesso a cor
     };
 }
 
