@@ -1,0 +1,19 @@
+/**
+ * React - Single page application
+ * Aplicação de página única, a requisição feita ao servidor recebe como resposta uma punica página 
+ * html, e a biblioteca (React) é responsavel  pela programaçõo de manipulação do conteúdo da página 
+ * e exibilo para o usuário.
+ * O resultado desse tipo de programação é a sensação que o usuário tem de nunca sair dá pagina, como 
+ * se estivesse numa aplicação nativa.
+ * Abase do react é a programação por componentes.
+ * 
+ * Um componente é a divisão da página em trechos independentes, ou seja, sua funcionalidade
+ * é independente dos demais componentes que compoem a página.
+ * Desta forma podemos dividir o código em módulos, onde cada modulo é responsalvel por uma funcionalidade
+ * especifica da aplicação.
+ * Também podemos construir componentes reutilizaveis.
+ * 
+ * Podemos criar componentes de duas formas:
+ * com funções - componentes funcionais.
+ * com classes - compoentes do tipo classe
+ */
